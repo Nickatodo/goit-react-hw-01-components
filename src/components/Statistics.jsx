@@ -30,7 +30,7 @@ function aleatorio(inferior, superior) {
 }
 
 function colorAleatorio() {
-    let hexadecimal = new Array("0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F");
+    let hexadecimal = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"];
     let color_aleatorio = "#";
     for (let i = 0; i < 6; i++) {
       let posarray = aleatorio(0, hexadecimal.length)
